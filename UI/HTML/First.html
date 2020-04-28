@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<body onload="loadDoc()">
+
+  <h2>Employees</h2>
+  <input type="text"/>
+  <button type="button" onclick="search()" >Search</button>
+
+<div id="demo">
+
+</div>
+
+<div id="output">
+   
+</div>
+
+<script>
+   var obj;
+  function search(){
+    console.log(obj);
+    var empName= document.querySelector("input").value;
+    for(var i=0;i<obj.persons.length;i++)
+    {
+      if(obj.persons[i].name==empName)
+      document.querySelector("#demo").innerHTML= JSON.stringify(obj.persons[i]);
+    }
+  }
+ 
+function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      data =   this.responseText;
+      obj= JSON.parse(data);
+      document.querySelector("#demo").innerHTML= data;
+    }
+  };
+  xhttp.open("GET", "http://www.json-generator.com/api/json/get/cqNKgkmvfS?indent=2", true);
+  xhttp.send();
+}
+</script>
+
+</body>
+</html>

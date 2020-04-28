@@ -1,0 +1,67 @@
+<html>
+
+<head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+<body>
+
+  <script>
+
+
+
+
+  $(document).ready(
+    function(){
+
+  var data={
+    "persons":[
+        {"name":"Kewal","age":21,"salary":100000},
+        {"name":"Kewal","age":21,"salary":100000},
+        {"name":"Kewal","age":21,"salary":100000}]
+
+    };
+
+    var str= JSON.stringify(data);
+
+    var obj=JSON.parse(str);
+    console.log(typeof(obj));
+
+
+
+    
+    var tableData;
+
+    for(var i=0;i<obj.persons.length;i++){
+      tableData = tableData+ "<tr><td>"+data.persons[i].name+
+      "</td><td>"+data.persons[i].age+"</td><td>"+data.persons[i].salary+
+      "</td></tr>";
+    }
+
+    $("table").append(tableData);
+     
+    }
+
+
+  );
+
+
+  
+  
+  </script>
+
+
+  <table border="2">
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+      <th>Salary</th>
+    </tr>
+
+
+
+  </table>
+
+</body>
+</html>

@@ -1,0 +1,205 @@
+Day 1 - (15th April)
+Web Basics
+Client Server Model
+HTTP 
+HTML Syntax
+HTML Elements i.e. ol,ul, marquee, p, div, h1 to h6 , img , a , table etc
+HTML attributes i.e. style, rowspan, colspan, id,class etc.
+CSS properties i.e. background-color, height, width, text-align, color etc.
+Form elements i.e. TextBox, Radiobutton, dropdown, checkbox, textarea, date , time, color, submit, reset
+Form attributes i.e. name, value, action, multiple, selected, checked, method, placeholder, size, maxlength, minlength,
+
+Day 1 Assignment: Arwizon Registration Form, 
+		method, target, readonly and disabled attributes
+	
+Day 2 - (16th April):
+
+HTML5 new form attributes i.e. required, autocomplete, autofocus, pattern etc.
+Regular expression 
+CSS Box Model
+Various css properties i.e. position, display, margin, padding etc.
+CSS Combinator
+CSS Psuedo classes i.e. hover, focus, link, visited, active , nth-child etc.
+CSS Psuedo elements i.e. selection, before-line, after-line, before, after , first-letter etc.
+Semantic elements i.e. header, footer, article, section, nav, main,ficgure etc.
+Datalist element in HTML5 
+Audio/ video feature of HTML5
+
+Day 2 Assignment: 
+	   Arwizon website using HTML5 elements, audio/video feature and CSS3 properties, 
+	   Highlight the option in datalist tag
+	   Modify the registration form with HTML5 attributes
+	   Interlink Arwizon registration page with Arwizon website.
+	   After succesful registration land into welcome page.
+
+
+Day 3 - 17th April :
+
+CSS3 properties i.e. transform (translate, scale, rotae, skew etc.)
+transition property, 
+animation property, @keyframes
+box-sizing, background-origin, gradient, border-radius, z-index, opacity, media queries
+HTML5 attributes: min, max , step
+Bootstrap overview, how to implement bootstrap, learnt about container and container-fluid classes
+Bootstrap components i.e. form, carousel, cards, buttons , navbar, dropdowns
+Classes used for table
+
+
+Day 3 Assignment: Convert the form using bootstrap classes like form-group, form-control etc.
+		  Implement carousel component having animated text 
+		  Implement card component as per your creativity
+		
+ 
+Day 4 - 18th April
+
+
+Grid system in bootstrap to make page responsive, offset ,
+Media queries in CSS3 to make page responsive
+Bootstrap components i.e. modal, alert, breadcrumb, progress etc.
+Glyphicons, typography 
+Finding : In nav bar, modal component does not work.
+
+Day 4 Assignment: Complete Arwizon website.
+
+Day 5 - 20th April:
+
+Showcased the wor to Arwizon leads.
+Javascript overview 
+Client side usage of javascript
+var , typeof keyword
+Javascript events: usage of onclick, onfocus, onblur, onreset 
+Event handling
+DOM tree and DOM methods i.e. getElementById, getElementsByTagName, getElementsByClassName
+querySelector(), querySelectorAll()
+How to change CSS properties as well as attributes also
+How to change the non-form elements content by using textContent, innerHTML, innerText
+alert(), console.log() method
+this keyword
+array , iteration of array
+
+Day 5 assignment: Complete the website as per the suggestions given.
+		  Display entered value in Registration form using javascript.
+  
+
+Day 6 - 21st April:
+
+onfocus, onblur implementation
+pattern matching using javascript search , match method
+onsubmit, onchange, oninput
+learnt validation for form elements i.e. text boxes, radio button, check boxes, datalist,file size
+
+Day 6 assignment: Complete the website as per the suggestions given.
+		  Revise the concepts explained in HTML, CSS and JS
+		  HTML5 API: geolocation, localStorage, canvas
+
+
+Day 7 - 22nd April
+
+HTML5 API - geolocation, localstorage, sessionstorage, drag and drop, canvas
+timing events i.e. setInterval and setTimeout
+Date class in Javascript
+CSS3 psuedo classes i.e. invalid , valid
+Form Validation API i.e. validity object and its properties i.e. valid, valueMissing,
+patternMismatch, typeMismatch, tooLong, tooShort etc.
+To work with form validation API make sure you enable form novalidate attribute.
+preventDefault() which stops the normal behaviour of the method
+className property to apply the class using javascript
+
+Day 7 Assignment: India flag using drag and drop API
+		  localStorage implmentation to show the no of hits of the website
+		  Form validation modification by using validation API
+
+Day 8 - 23rd April
+
+Advanced JS topics i.e. let and const, arrow function, template string , class and object,
+constructor, super, this , inhertance, creation of object using curly braces
+destructuring, spread and rest operators
+import and export
+parseInt, parseFloat to convert string into number data type
+popup boxes i.e. alert, prompt, confirm
+
+
+Assignment day 8: eval(), How to add , reomve, modify elements in DOM tree
+
+
+Day 9 - 24th April
+
+EventListener, String methods, Date method, Math methods, 
+Solar system implementation using CSS3
+jQuery overview, ready method,
+jQuery Selectors, jQuery effects i.e. hide, show, toggle, fadeIn, fadeOut, fadeToggle,
+slideUp, slideDown, slideToggle, animate,
+css(), attr(), text(), html()
+jQuery chaining 
+noConflict()
+callback functions
+
+Assignment day 9: Convert the Registration form using jQuery.
+
+Day 10 : 25th April
+
+hover method, on method, how to add or remove CSS classes on selectors.
+val() method for form elements
+jQuery traversing methods : parent(), parents(), find() etc.
+filter methods: first(), last(), eq(), filter(), not() etc.
+jQuery dimensions i.e. width(), height() etc.
+
+Assignment day 10 : 
+	Implement timer for applying the job in the format of HH:MM:SS
+	Once user clicks on Apply job , use modal and display "You have applied successfully."
+
+Day 11 - 27th April
+
+JSON Overview, JSON Object, JSON String , JSON Array, 
+JSON.parse() : converts JSON string into JSON Object
+JSON.stringify() : converts JSON object into JSON String
+upload JSON onto server
+
+AJAX overview
+XMLHttpRequest(), open(),send(),onreadystatechange function ,
+readyState, status, responseText, responseXML
+Displayed the JSON data in a tabular format using AJAX
+
+
+Assignment Day 11: Display state wise Covid-19 data in tabular format.
+	           Provide Search option also.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+	
+
